@@ -1,0 +1,79 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "monitor energetico",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "HolaMundoIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "ConocerMasIntent",
+          "slots": [],
+          "samples": [
+            "conocer mas",
+            "quiero conocer mas",
+            "me gustaria conocer mas",
+            "dime mas sobre esto",
+            "cuenta mas sobre esto"
+          ]
+        },
+        {
+          "name": "CuantoConsumoIntent",
+          "slots": [],
+          "samples": [
+            "cuanto es mi consumo energetico",
+            "quiero saber sobre mi consumo energetico",
+            "me gustaria conocer mi consumo energetico",
+            "cuentame sobre mi consumo energetico",
+            "cuanto es mi consumo",
+            "quiero saber sobre mi consumo",
+            "me gustaria conocer mi consumo",
+            "cuentame sobre mi consumo"
+          ]
+        },
+        {
+          "name": "RecomendacionConsumoIntent",
+          "slots": [],
+          "samples": [
+            "dame recomendaciones para optimizar mi consumo energetico",
+            "dime recomendaciones para optimizar mi consumo energetico",
+            "recomiendame como optimizar mi consumo energetico",
+            "dime como optimizar mi consumo energetico",
+            "hablame sobre como optimizar mi consumo energetico",
+            "cuentame como optimizar mi consumo energetico"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}

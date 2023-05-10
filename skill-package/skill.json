@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:157069767356:function:b96aed70-1e09-45ea-a18d-60543178805d:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:157069767356:function:b96aed70-1e09-45ea-a18d-60543178805d:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:157069767356:function:b96aed70-1e09-45ea-a18d-60543178805d:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:157069767356:function:b96aed70-1e09-45ea-a18d-60543178805d:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "es-MX"
+          }
+        ]
+      },
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "es-ES": {
+          "name": "Monitoreo Energetico"
+        },
+        "es-US": {
+          "name": "Monitoreo Energetico"
+        },
+        "es-MX": {
+          "name": "Monitoreo Energetico"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
