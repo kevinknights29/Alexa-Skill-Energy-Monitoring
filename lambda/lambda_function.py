@@ -127,7 +127,7 @@ class IntentReflectorHandler(AbstractRequestHandler):
         # type: (HandlerInput) -> Response
         intent_name = ask_utils.get_intent_name(handler_input)
         # "You just triggered " + intent_name + "."
-        speak_output = "Haz disparado " + intent_name + "."
+        speak_output = f"Haz disparado {intent_name}."
 
         return (
             handler_input.response_builder
